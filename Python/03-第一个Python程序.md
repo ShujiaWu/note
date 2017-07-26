@@ -16,13 +16,15 @@
 在解释器提示符中输入:
 
 
-```
+```python
 print('Hello Python')
 ```
  
 然后按下Enter键将看到在屏幕上打印 `Hello Python` 字样。
 
 ![Hello Python](assets/images/2017-07-04-15-58-28.png)
+
+
 
 ## 如何退出解释器提示符
 
@@ -59,7 +61,7 @@ Linux、Mac OS： Ctrl + D 再按下Enter
 
 在编辑器中输入以下代码：
 
-```
+```python
 """第一个Python程序"""
 # -*- coding: UTF-8 -*-
 print('Hello Python')
