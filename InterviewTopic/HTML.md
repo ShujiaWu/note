@@ -34,7 +34,7 @@ HTML是一种基本的WEB网页设计语言，XHTML是一个基于XML的置标�
 * 在没有CSS样式样式的情况下也能容易阅读。
 * 对于阅读源码的人能够容易的对页面内容进行分块，便于阅读和维护。
 
-## HTML5 为什么只需要写 <!DOCTYPE HTML>
+## HTML5 为什么只需要写 \<!DOCTYPE HTML\>
 HTML5 不基于 `SGML` （Standard Generalized Markup language，标准通用标记语言），因此不需要对 `DTD` （Document Type Definition，文档类型定义） 进行引用，但是需要doctype来规范浏览器的行为（让浏览器按照它们应该的方式来运行）。
 
 而HTML4.01基于 `SGML` ，所以需要对 `DTD` 进行引用，才能告知浏览器文档所使用的文档类型。
