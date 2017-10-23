@@ -50,6 +50,9 @@ mongod.exe --bind_ip [yourIPadress] --logpath ["D:\Datebase\MongoDB\mongodb.log"
 ```
 mongod.exe --logpath "D:\Datebase\MongoDB\log\mongodb.log" --logappend --dbpath "D:\Datebase\MongoDB\data" --port 27017 --serviceName "MongoDB" --serviceDisplayName "MongoDB" --install
 
+
+# 使用sc进行安装
+
 sc.exe create MongoDB binPath= "\"C:\Program Files\MongoDB\Server\3.4\bin\mongod.exe\" --service --config=\"D:\Datebase\MongoDB\config\mongod.cfg\"" DisplayName= "MongoDB" start= "auto"
 ```
 
@@ -64,3 +67,13 @@ net start MongoDB
 net stop MongoDB
 sc.exe delete MongoDB
 ```
+
+## 使用mongoose
+
+### 安装 mongoose
+
+```bash
+npm install mongoose --save
+```
+
+### 
